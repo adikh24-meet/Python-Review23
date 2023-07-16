@@ -4,7 +4,7 @@ def create_youtube_video(title,description):
 
 def like(youtube):
 	if "likes" in youtube:
-		youtube[likes]++
+		youtube[likes]+=1
 	return youtube
 
 def like(youtube):
